@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: myfont;
+    color: #000;
+}
+
+body{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+@font-face{
+    font-family: myfont;
+    src: url(Quicksand.ttf)
+}
+
+.loginbox{
+    height: 85vh;
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    padding: 25px;
+    text-align: center;
+}
+
+.form{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.form h1{
+    font-size: 60px;
+}
+
+.logo img{
+    margin-top: 40px;
+    height: 12vh;
+}
+
+.form p{
+    margin: 10px 0;
+    word-spacing: 4px;
+    font-size: 20px;
+    color: #a7a7a7;
+}
+
+.signin{
+    font-size: 20px;
+    word-spacing: 4px;
+    padding-bottom: 30px;
+}
+
+.signin a{
+    border-bottom: 1px solid #000;
+}
+
+.username, .password{
+    width: 90%;
+    padding: 10px 20px;
+    border: 1px solid #999999;
+    color: #999999;
+    font-size: 20px;
+    margin: 5px 0;
+    
+}
+
+.forgot{
+    float: right;
+    margin-right: 5%;
+    border-bottom: 1px solid #5a5a5a;
+    margin-bottom: 20px;
+}
+
+.forgot a{
+    font-size: 20px;
+    color: #5a5a5a;
+}
+
+.button{
+    width: 90%;
+    color: #5a5a5a;
+    background: #313131;
+    font-size: 30px;
+    border: 1px solid #313131;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.button:hover{
+    color: #313131;
+    background: #5a5a5a;
+}
+
+.texts p{
+    color: #a7a7a7;
+}
+
+.tleft{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.tright{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.bleft{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.bright{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
